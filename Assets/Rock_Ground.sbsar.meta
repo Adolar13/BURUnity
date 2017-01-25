@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ca9f594843e51aa4ab8faf8f551df26e
-timeCreated: 1485278143
+timeCreated: 1485371125
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -198,24 +198,10 @@ SubstanceImporter:
     prototypeName: Rock_Ground
     shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+    shaderKeywords: 
     renderQueue: -1
     lightmapFlags: 1
     inputs:
-    - name: Snow_Fresh_Snow
-      value:
-        scalar[0]: 1
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: Puddles_Position
-      value:
-        scalar[0]: 0.315
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
     - name: $outputsize
       value:
         scalar[0]: 8
@@ -309,7 +295,7 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: Ground_Dirt_Position
       value:
-        scalar[0]: 0.502
+        scalar[0]: 0
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -321,16 +307,30 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: Puddles_Position
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     - name: Puddles_Contrast
       value:
-        scalar[0]: 0.76
+        scalar[0]: 0.466
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Snow_Fresh_Snow
+      value:
+        scalar[0]: 0
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Snow_Melted_Snow
       value:
-        scalar[0]: 0.805
+        scalar[0]: 0
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -359,7 +359,7 @@ SubstanceImporter:
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
+      scale: {x: 2, y: 2}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 42
@@ -400,7 +400,7 @@ SubstanceImporter:
           name: _MainTex
         second:
           texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
+          scale: {x: 2, y: 2}
           offset: {x: 0, y: 0}
       - first:
           name: _MetallicGlossMap
@@ -426,7 +426,7 @@ SubstanceImporter:
         second: 1
       - first:
           name: _Cutoff
-        second: 0.5
+        second: 0.138
       - first:
           name: _DetailNormalMapScale
         second: 1
@@ -435,7 +435,7 @@ SubstanceImporter:
         second: 0
       - first:
           name: _EdgeLength
-        second: 50
+        second: 3
       - first:
           name: _GlossMapScale
         second: 1
@@ -459,10 +459,7 @@ SubstanceImporter:
         second: 0.08
       - first:
           name: _Shininess
-        second: 0.01
-      - first:
-          name: _Smoothness
-        second: 0.5
+        second: 0.078125
       - first:
           name: _SmoothnessTextureChannel
         second: 0
@@ -538,10 +535,10 @@ SubstanceImporter:
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
-      textureWidth: 2048
-      textureHeight: 2048
-      textureFormat: 0
-      loadingBehavior: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 1
+      loadingBehavior: 4
   - serializedVersion: 16
     name: rock_shape
     prototypeName: rock_shape
