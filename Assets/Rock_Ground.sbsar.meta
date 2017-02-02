@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ca9f594843e51aa4ab8faf8f551df26e
-timeCreated: 1485371125
+timeCreated: 1485996504
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -537,8 +537,8 @@ SubstanceImporter:
       buildTarget: 
       textureWidth: 256
       textureHeight: 256
-      textureFormat: 1
-      loadingBehavior: 4
+      textureFormat: 0
+      loadingBehavior: 1
   - serializedVersion: 16
     name: rock_shape
     prototypeName: rock_shape
